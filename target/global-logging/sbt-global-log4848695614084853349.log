@@ -1,0 +1,89 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.5 (Oracle Corporation Java 1.8.0_202)
+[debug] Load.defaultLoad until apply took 1643.5997ms
+[debug]           Load.loadUnit: plugins took 116.3839ms
+[debug]           Load.loadUnit: defsScala took 0.396ms
+[debug] [Loading] Scanning directory D:\free\scala\Streaming\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\free\scala\Streaming\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 23.5703 ms
+[debug]               Load.resolveProject(streaming-build) took 91.0451ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id streaming-build, base: D:\free\scala\Streaming\project, plugins: List(<none>))) took 173.6353ms
+[debug] [Loading] Done in D:\free\scala\Streaming\project, returning: (streaming-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 200.7244ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.3315ms
+[debug]         Load.loadUnit(file:/D:/free/scala/Streaming/project/, ...) took 324.5371ms
+[debug]       Load.apply: load took 600.1965ms
+[debug]       Load.apply: resolveProjects took 7.2347ms
+[debug]       Load.apply: finalTransforms took 74.0738ms
+[debug]       Load.apply: config.delegates took 9.5039ms
+[debug]       Load.apply: Def.make(settings)... took 544.4798ms
+[debug]       Load.apply: structureIndex took 181.4603ms
+[debug]       Load.apply: mkStreams took 2.6654ms
+[info] loading project definition from D:\free\scala\Streaming\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2641.0565ms
+[debug]     Load.loadUnit: defsScala took 0.0046ms
+[debug] [Loading] Scanning directory D:\free\scala\Streaming
+[debug]       Load.loadUnit: mkEval took 9.006ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\free\scala\Streaming, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.3804 ms
+[info] loading settings for project streaming from build.sbt ...
+[debug]         Load.resolveProject(streaming) took 3.8928ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id streaming, base: D:\free\scala\Streaming, plugins: List(<none>))) took 8.1283ms
+[debug] [Loading] Done in D:\free\scala\Streaming, returning: (streaming)
+[debug]     Load.loadUnit: loadedProjectsRaw took 4638.829ms
+[debug]     Load.loadUnit: cleanEvalClasses took 64.2682ms
+[debug]   Load.loadUnit(file:/D:/free/scala/Streaming/, ...) took 7345.8188ms
+[debug] Load.apply: load took 7368.8663ms
+[debug] Load.apply: resolveProjects took 0.19ms
+[debug] Load.apply: finalTransforms took 21.472ms
+[debug] Load.apply: config.delegates took 0.4842ms
+[debug] Load.apply: Def.make(settings)... took 143.8995ms
+[debug] Load.apply: structureIndex took 43.2642ms
+[debug] Load.apply: mkStreams took 0.0036ms
+[info] set current project to Streaming (in build file:/D:/free/scala/Streaming/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-db8f1e3794fa6a8540b3
+[debug] Writing bsp connection file
+[info] started sbt server
